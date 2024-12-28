@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://c88t4sriy6ud1"]
+
+[ext_resource type="Script" path="res://scripts/board.gd" id="1_cyf50"]
+[ext_resource type="Texture2D" uid="uid://pyxbgu3aov6h" path="res://assets/chessroguelike.png" id="2_42n36"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Board" type="Node2D" parent="."]
+position = Vector2(960, 500)
+script = ExtResource("1_cyf50")
+
+[node name="BoardSprite" type="Sprite2D" parent="Board"]
+texture = ExtResource("2_42n36")
+
+[node name="Squares" type="Node2D" parent="Board"]
+position = Vector2(-64, -64)

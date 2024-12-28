@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cn3qen6an6n65"]
+
+[ext_resource type="Script" path="res://scripts/square.gd" id="1_31tvq"]
+[ext_resource type="Texture2D" uid="uid://cfe6ok16c8vfh" path="res://assets/square.png" id="2_gyqtw"]
+[ext_resource type="Texture2D" uid="uid://c77fu0t2hp8ej" path="res://assets/backwhite.png" id="3_v1j8l"]
+
+[node name="Square" type="Node2D"]
+script = ExtResource("1_31tvq")
+defaultsquare = ExtResource("2_gyqtw")
+
+[node name="BackgroundSprite" type="Sprite2D" parent="."]
+texture = ExtResource("3_v1j8l")
+centered = false
+
+[node name="SquareSprite" type="Sprite2D" parent="."]
+texture = ExtResource("2_gyqtw")
+centered = false
