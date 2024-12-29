@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bqgm3832c4vga"
-path="res://.godot/imported/black_rook.png-0146a4121e23a9d1ad948625df8ed58c.ctex"
+uid="uid://nohhbr7xuvq8"
+path="res://.godot/imported/white_knight.svg-47778860b586974610be4e16e8d73ac9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pieces/black_rook.png"
-dest_files=["res://.godot/imported/black_rook.png-0146a4121e23a9d1ad948625df8ed58c.ctex"]
+source_file="res://assets/pieces/white_knight.svg"
+dest_files=["res://.godot/imported/white_knight.svg-47778860b586974610be4e16e8d73ac9.ctex"]
 
 [params]
 
@@ -32,3 +32,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false

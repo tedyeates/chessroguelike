@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bb1xhkoaaais3"]
+
+[ext_resource type="Texture2D" uid="uid://dv1lc0l31pfq2" path="res://assets/pieces/black_pawn.svg" id="1_ykybo"]
+
+[node name="Piece" type="Node2D"]
+
+[node name="PieceSprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_ykybo")

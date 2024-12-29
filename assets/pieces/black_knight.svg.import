@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1j8oklwb2akb"
-path="res://.godot/imported/black_queen.png-813cf2100b8ca32c8f245210e206b1c3.ctex"
+uid="uid://dkwl4forthm2e"
+path="res://.godot/imported/black_knight.svg-23485023e7c70ce9c6b27dde93c37a4b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pieces/black_queen.png"
-dest_files=["res://.godot/imported/black_queen.png-813cf2100b8ca32c8f245210e206b1c3.ctex"]
+source_file="res://assets/pieces/black_knight.svg"
+dest_files=["res://.godot/imported/black_knight.svg-23485023e7c70ce9c6b27dde93c37a4b.ctex"]
 
 [params]
 
@@ -32,3 +32,6 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
+svg/scale=1.0
+editor/scale_with_editor_scale=false
+editor/convert_colors_with_editor_theme=false
