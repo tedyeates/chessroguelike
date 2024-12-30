@@ -6,11 +6,10 @@
 [node name="Game" type="Node2D"]
 
 [node name="Board" type="Node2D" parent="."]
-position = Vector2(20, 20)
+position = Vector2(21, 20)
 script = ExtResource("1_cyf50")
 
 [node name="BoardSprite" type="Sprite2D" parent="Board"]
-scale = Vector2(7, 7)
 texture = ExtResource("2_42n36")
 centered = false
 
